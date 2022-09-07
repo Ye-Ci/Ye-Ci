@@ -13,45 +13,45 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   
   <meta name="theme-color" content="#2f4154">
-  <meta name="author" content="John Doe">
+  <meta name="author" content="YeCi">
   <meta name="keywords" content="">
   
     <meta name="description" content="1.绪论1.1 数据结构研究 主要是解决一些非数值计算问题，这些问题无法用数学公式或者方程来描述。 问题数学模型不是数学方程，而是一些表、树、图这类具有逻辑关系的数据。  1.2 基本概念和术语1.2.1基本概念和术语 数据：数值型：整数实数，  ​                  非数值型：图像、文字、声音  数据元素：数据基本单位，作为一个整体进行考虑和处理，是集合的个体  数据项：构成数据">
 <meta property="og:type" content="article">
-<meta property="og:title" content="数据结构笔记">
-<meta property="og:url" content="http://example.com/2022/09/05/%E5%90%84%E7%A7%8D%E7%AE%97%E6%B3%95%E7%AC%94%E8%AE%B0/index.html">
+<meta property="og:title" content="数据结构与算法笔记">
+<meta property="og:url" content="http://example.com/2022/09/07/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E7%AC%94%E8%AE%B0/index.html">
 <meta property="og:site_name" content="Hexo">
 <meta property="og:description" content="1.绪论1.1 数据结构研究 主要是解决一些非数值计算问题，这些问题无法用数学公式或者方程来描述。 问题数学模型不是数学方程，而是一些表、树、图这类具有逻辑关系的数据。  1.2 基本概念和术语1.2.1基本概念和术语 数据：数值型：整数实数，  ​                  非数值型：图像、文字、声音  数据元素：数据基本单位，作为一个整体进行考虑和处理，是集合的个体  数据项：构成数据">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="c:/Users/23256/AppData/Roaming/Typora/typora-user-images/image-20211122210659836.png">
-<meta property="og:image" content="c:/Users/23256/AppData/Roaming/Typora/typora-user-images/image-20211129183500813.png">
-<meta property="og:image" content="c:/Users/23256/AppData/Roaming/Typora/typora-user-images/image-20211203184522569.png">
-<meta property="og:image" content="c:/Users/23256/AppData/Roaming/Typora/typora-user-images/image-20211203185458531.png">
-<meta property="og:image" content="c:/Users/23256/AppData/Roaming/Typora/typora-user-images/image-20211205194605061.png">
-<meta property="og:image" content="c:/Users/23256/AppData/Roaming/Typora/typora-user-images/image-20211206120124861.png">
-<meta property="og:image" content="c:/Users/23256/AppData/Roaming/Typora/typora-user-images/image-20211207203852163.png">
-<meta property="og:image" content="c:/Users/23256/AppData/Roaming/Typora/typora-user-images/image-20211207204325596.png">
-<meta property="og:image" content="c:/Users/23256/AppData/Roaming/Typora/typora-user-images/image-20211207210456690.png">
-<meta property="og:image" content="c:/Users/23256/AppData/Roaming/Typora/typora-user-images/image-20211207210812526.png">
-<meta property="og:image" content="c:/Users/23256/AppData/Roaming/Typora/typora-user-images/image-20211207212715775.png">
-<meta property="og:image" content="c:/Users/23256/AppData/Roaming/Typora/typora-user-images/image-20211207213248583.png">
-<meta property="og:image" content="c:/Users/23256/AppData/Roaming/Typora/typora-user-images/image-20211207213440734.png">
-<meta property="og:image" content="c:/Users/23256/AppData/Roaming/Typora/typora-user-images/image-20211207213530533.png">
-<meta property="og:image" content="c:/Users/23256/AppData/Roaming/Typora/typora-user-images/image-20211207213825729.png">
-<meta property="og:image" content="c:/Users/23256/AppData/Roaming/Typora/typora-user-images/image-20211207214250055.png">
-<meta property="og:image" content="c:/Users/23256/AppData/Roaming/Typora/typora-user-images/image-20211207214609152.png">
-<meta property="og:image" content="c:/Users/23256/AppData/Roaming/Typora/typora-user-images/image-20211207214705792.png">
-<meta property="og:image" content="c:/Users/23256/AppData/Roaming/Typora/typora-user-images/image-20220126194417617.png">
-<meta property="article:published_time" content="2022-09-05T07:28:43.000Z">
-<meta property="article:modified_time" content="2022-09-07T00:21:22.164Z">
-<meta property="article:author" content="John Doe">
-<meta property="article:tag" content="算法">
+<meta property="og:image" content="http://example.com/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E7%AC%94%E8%AE%B0.assets/image-20211129183500813.png">
+<meta property="og:image" content="http://example.com/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E7%AC%94%E8%AE%B0.assets/image-20211203184522569.png">
+<meta property="og:image" content="http://example.com/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E7%AC%94%E8%AE%B0.assets/image-20211203185458531.png">
+<meta property="og:image" content="http://example.com/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E7%AC%94%E8%AE%B0.assets/image-20211205194605061.png">
+<meta property="og:image" content="http://example.com/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E7%AC%94%E8%AE%B0.assets/image-20211206120124861.png">
+<meta property="og:image" content="http://example.com/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E7%AC%94%E8%AE%B0.assets/image-20211207203852163.png">
+<meta property="og:image" content="http://example.com/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E7%AC%94%E8%AE%B0.assets/image-20211207204325596.png">
+<meta property="og:image" content="http://example.com/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E7%AC%94%E8%AE%B0.assets/image-20211207210456690.png">
+<meta property="og:image" content="http://example.com/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E7%AC%94%E8%AE%B0.assets/image-20211207210812526.png">
+<meta property="og:image" content="http://example.com/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E7%AC%94%E8%AE%B0.assets/image-20211207212715775.png">
+<meta property="og:image" content="http://example.com/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E7%AC%94%E8%AE%B0.assets/image-20211207213248583.png">
+<meta property="og:image" content="http://example.com/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E7%AC%94%E8%AE%B0.assets/image-20211207213440734.png">
+<meta property="og:image" content="http://example.com/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E7%AC%94%E8%AE%B0.assets/image-20211207213530533.png">
+<meta property="og:image" content="http://example.com/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E7%AC%94%E8%AE%B0.assets/image-20211207213825729.png">
+<meta property="og:image" content="http://example.com/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E7%AC%94%E8%AE%B0.assets/image-20211207214250055.png">
+<meta property="og:image" content="http://example.com/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E7%AC%94%E8%AE%B0.assets/image-20211207214609152.png">
+<meta property="og:image" content="http://example.com/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E7%AC%94%E8%AE%B0.assets/image-20211207214705792.png">
+<meta property="og:image" content="http://example.com/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E7%AC%94%E8%AE%B0.assets/image-20220126194417617.png">
+<meta property="article:published_time" content="2022-09-07T00:39:57.000Z">
+<meta property="article:modified_time" content="2022-09-07T00:41:57.380Z">
+<meta property="article:author" content="YeCi">
+<meta property="article:tag" content="数据结构">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="c:/Users/23256/AppData/Roaming/Typora/typora-user-images/image-20211122210659836.png">
   
   
   
-  <title>数据结构笔记 - Hexo</title>
+  <title>数据结构与算法笔记 - Hexo</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -216,7 +216,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="数据结构笔记"></span>
+            <span id="subtitle" data-typed-text="数据结构与算法笔记"></span>
           
         </div>
 
@@ -227,8 +227,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2022-09-05 15:28" pubdate>
-          2022年9月5日 下午
+        <time datetime="2022-09-07 08:39" pubdate>
+          2022年9月7日 早上
         </time>
       </span>
     
@@ -288,7 +288,7 @@
         <div id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">数据结构笔记</h1>
+            <h1 style="display: none">数据结构与算法笔记</h1>
             
             
               <div class="markdown-body">
@@ -534,7 +534,7 @@
 </li>
 <li><p>循环链表：<strong>首位相接</strong>的链表（在最后一个结点中存储头指针）</p>
 </li>
-<li><p>有指针、头结点、首元结点：<img src="C:\Users\23256\AppData\Roaming\Typora\typora-user-images\image-20211129183500813.png" srcset="/img/loading.gif" lazyload alt="image-20211129183500813"></p>
+<li><p>有指针、头结点、首元结点：<img src="/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E7%AC%94%E8%AE%B0.assets/image-20211129183500813.png" srcset="/img/loading.gif" lazyload alt="image-20211129183500813"></p>
 <p>头指针：指向链表中第一个结点的指针</p>
 <p>首元结点：链表中存储第一个数据元素a<del>1</del>的结点</p>
 <p>头结点：实在链表的首元结点之前附设的一个结点（头结点数据域可以为空，也可以存放线性表长度等信息，但是此结点不计入链表长度值）</p>
@@ -565,7 +565,7 @@
 <h3 id="2-5-3-循环链表"><a href="#2-5-3-循环链表" class="headerlink" title="2.5.3 循环链表"></a>2.5.3 循环链表</h3><p>循环链表：是一种头尾相接的链表（尾结点指向头结点）</p>
 <p>优点：从表中任意节点出发均可找到其他结点</p>
 <p>终止条件：当p-&gt;next指向头节点时，终止</p>
-<p>带尾指针的循环链表的合并<img src="C:\Users\23256\AppData\Roaming\Typora\typora-user-images\image-20211203184522569.png" srcset="/img/loading.gif" lazyload alt="image-20211203184522569"></p>
+<p>带尾指针的循环链表的合并<img src="/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E7%AC%94%E8%AE%B0.assets/image-20211203184522569.png" srcset="/img/loading.gif" lazyload alt="image-20211203184522569"></p>
 <figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs c++"><span class="hljs-function">linklist <span class="hljs-title">connect</span><span class="hljs-params">(linklist ta,linklist tb)</span></span>&#123;<span class="hljs-comment">//带尾指针循环链表的合并</span><br>    lnode *p;<br>    p=ta-&gt;next;     <span class="hljs-comment">//用p存ta表的头结点</span><br>    ta-&gt;next=tb-&gt;next-&gt;next; <span class="hljs-comment">// tb的表头连结ta的表尾</span><br>    <span class="hljs-keyword">delete</span> tb-&gt;next; <span class="hljs-comment">// 释放tb表的头结点</span><br>    tb-&gt;next=p; <span class="hljs-comment">//修改指针</span><br>    <span class="hljs-keyword">return</span> tb;<br>&#125;<br></code></pre></td></tr></table></figure>
 
 <p>也可设置<strong>双向循环链表：</strong></p>
@@ -574,7 +574,7 @@
 </li>
 <li><p>让最后一个结点的后继指针指向头结点</p>
 </li>
-<li><p><img src="C:\Users\23256\AppData\Roaming\Typora\typora-user-images\image-20211203185458531.png" srcset="/img/loading.gif" lazyload alt="image-20211203185458531"></p>
+<li><p><img src="/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E7%AC%94%E8%AE%B0.assets/image-20211203185458531.png" srcset="/img/loading.gif" lazyload alt="image-20211203185458531"></p>
 </li>
 </ul>
 <h3 id="2-5-4-双向链表"><a href="#2-5-4-双向链表" class="headerlink" title="2.5.4 双向链表"></a>2.5.4 双向链表</h3><ol>
@@ -589,7 +589,7 @@
 </li>
 <li><p>插入</p>
 <ol>
-<li><img src="C:\Users\23256\AppData\Roaming\Typora\typora-user-images\image-20211205194605061.png" srcset="/img/loading.gif" lazyload alt="image-20211205194605061"></li>
+<li><img src="/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E7%AC%94%E8%AE%B0.assets/image-20211205194605061.png" srcset="/img/loading.gif" lazyload alt="image-20211205194605061"></li>
 </ol>
 <figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><code class="hljs c++"><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">linkinsert_dul</span><span class="hljs-params">(dulinklist &amp;l,elemtype e)</span></span>&#123;<br>    <span class="hljs-keyword">if</span>(!(p=<span class="hljs-built_in">getelemp_dul</span>(l,i))) <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;<span class="hljs-comment">//判断数据是否合法</span><br>    linklist s=<span class="hljs-keyword">new</span> dulnode;<br>    s-&gt;date=e;<br>    s-&gt;prior=p-&gt;prior;<br>    p-&gt;prior-&gt;next=s;<br>    s-&gt;next=p;<br>    p-&gt;prior=s;<br>    <span class="hljs-keyword">return</span> <span class="hljs-number">1</span>;<br>&#125;<span class="hljs-comment">// 双向链表的插入</span><br></code></pre></td></tr></table></figure>
 </li>
@@ -608,7 +608,7 @@
 </ul>
 </li>
 </ul>
-<p><img src="C:\Users\23256\AppData\Roaming\Typora\typora-user-images\image-20211206120124861.png" srcset="/img/loading.gif" lazyload alt="image-20211206120124861"></p>
+<p><img src="/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E7%AC%94%E8%AE%B0.assets/image-20211206120124861.png" srcset="/img/loading.gif" lazyload alt="image-20211206120124861"></p>
 <h2 id="2-7线性表的应用"><a href="#2-7线性表的应用" class="headerlink" title="2.7线性表的应用"></a>2.7线性表的应用</h2><ol>
 <li><p><strong>线性表的合并</strong>：</p>
 <p><strong>问题描述</strong>：假设利用两个线性表La和Lb分别表示两个集合A和B，现要求一个新的集合A&#x3D;A∪B</p>
@@ -619,42 +619,42 @@
 <li><p>有序表的合并：</p>
 <p>顺序表：</p>
 <p><strong>问题描述</strong>：已知线性表La和Lb中的数据元素按值非递减有序排列，现要求将La和Lb归并为一个新的线性表Lc，且Lc中的数据元素仍按值非递减有序排列</p>
-<p><img src="C:\Users\23256\AppData\Roaming\Typora\typora-user-images\image-20211207203852163.png" srcset="/img/loading.gif" lazyload alt="image-20211207203852163"></p>
-<p><img src="C:\Users\23256\AppData\Roaming\Typora\typora-user-images\image-20211207204325596.png" srcset="/img/loading.gif" lazyload alt="image-20211207204325596"></p>
+<p><img src="/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E7%AC%94%E8%AE%B0.assets/image-20211207203852163.png" srcset="/img/loading.gif" lazyload alt="image-20211207203852163"></p>
+<p><img src="/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E7%AC%94%E8%AE%B0.assets/image-20211207204325596.png" srcset="/img/loading.gif" lazyload alt="image-20211207204325596"></p>
 <p>代码实现：</p>
 <figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><code class="hljs c++"><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">mergelist_sq</span><span class="hljs-params">(sqlist la,sqlist lb,sqlist &amp;lc)</span></span>&#123;<span class="hljs-comment">//s</span><br>    <span class="hljs-type">int</span>* pa=la.elem;<br>    <span class="hljs-type">int</span>* pb=lb.elem;<br>    lc.length=la.length+lb.length;<br>    lc.elem=<span class="hljs-keyword">new</span> elemtype[lc.length];<br>    <span class="hljs-type">int</span>* pc=lc.elem;<br>    <span class="hljs-type">int</span>* pa_last=la.elem+la.length<span class="hljs-number">-1</span>;<br>    <span class="hljs-type">int</span>* pb_last=lb.elem+lb.length<span class="hljs-number">-1</span>;<br>    <span class="hljs-keyword">while</span>(pa&lt;=pa_last &amp;&amp; pb&lt;=pb_last)&#123;<br>        <span class="hljs-keyword">if</span>(*pa&lt;=*pb) *pc++=*pa++;<br>        <span class="hljs-keyword">else</span> *pc++=*pb++;<br>    &#125;<br>    <span class="hljs-keyword">while</span>(pa&lt;=pa_last) *pc++=*pa++;<br>    <span class="hljs-keyword">while</span>(pb&lt;=pb_last) *pc++=*pa++;<br>&#125;<br></code></pre></td></tr></table></figure>
 
 <p>链表：前提是合并的两个链表也是有序链表</p>
-<p><img src="C:\Users\23256\AppData\Roaming\Typora\typora-user-images\image-20211207210456690.png" srcset="/img/loading.gif" lazyload alt="image-20211207210456690"></p>
-<p><img src="C:\Users\23256\AppData\Roaming\Typora\typora-user-images\image-20211207210812526.png" srcset="/img/loading.gif" lazyload alt="image-20211207210812526"></p>
+<p><img src="/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E7%AC%94%E8%AE%B0.assets/image-20211207210456690.png" srcset="/img/loading.gif" lazyload alt="image-20211207210456690"></p>
+<p><img src="/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E7%AC%94%E8%AE%B0.assets/image-20211207210812526.png" srcset="/img/loading.gif" lazyload alt="image-20211207210812526"></p>
 <p> 代码实现：</p>
 <figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><code class="hljs c++"><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">mregelist_l</span><span class="hljs-params">(linklist &amp;la,linklist &amp;lb,linklist &amp;lc)</span></span>&#123;<span class="hljs-comment">//两个有序链表的合并</span><br>    lnode* pa=la-&gt;next;<br>    lnode* pb=lb-&gt;next;<br>    lnode* pc;<br>    pc=lc=la;  <span class="hljs-comment">//用la的头结点作为lc的头结点</span><br>    <span class="hljs-keyword">while</span>(pa &amp;&amp; pb)&#123;<br>        <span class="hljs-keyword">if</span>(pa-&gt;date&lt;=pb-&gt;date)&#123;<br>            pc-&gt;next=pa;<br>            pc=pa;<br>            pa=pa-&gt;next;<br>        &#125;<span class="hljs-keyword">else</span> &#123;<br>            pc-&gt;next=pb;<br>            pc=pb;<br>            pb=pb-&gt;next;<br>        &#125;<br>    &#125;<br>    pc-&gt;next=pa?pa:pb;<br>    <span class="hljs-keyword">delete</span> lb;<span class="hljs-comment">// 释放头结点</span><br>&#125;<br><br></code></pre></td></tr></table></figure></li>
 </ol>
 <h2 id="2-8案例分析与实现"><a href="#2-8案例分析与实现" class="headerlink" title="2.8案例分析与实现"></a>2.8案例分析与实现</h2><ol>
 <li><p>案例一：</p>
 <p>一元多项式的运算：</p>
-<p><img src="C:\Users\23256\AppData\Roaming\Typora\typora-user-images\image-20211207212715775.png" srcset="/img/loading.gif" lazyload alt="image-20211207212715775"></p>
+<p><img src="/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E7%AC%94%E8%AE%B0.assets/image-20211207212715775.png" srcset="/img/loading.gif" lazyload alt="image-20211207212715775"></p>
 <p>下标对应次方。</p>
 </li>
 <li><p>案例二：</p>
 <p>稀疏多项式的运算：每一个数据域存储两个量</p>
 <p>顺序表：</p>
-<p><img src="C:\Users\23256\AppData\Roaming\Typora\typora-user-images\image-20211207213248583.png" srcset="/img/loading.gif" lazyload alt="image-20211207213248583"></p>
+<p><img src="/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E7%AC%94%E8%AE%B0.assets/image-20211207213248583.png" srcset="/img/loading.gif" lazyload alt="image-20211207213248583"></p>
 <p>链式表：两个数据域，一个存储次方，一个存储系数</p>
 <p>定义链表</p>
-<p><img src="C:\Users\23256\AppData\Roaming\Typora\typora-user-images\image-20211207213440734.png" srcset="/img/loading.gif" lazyload alt="image-20211207213440734"></p>
-<p><img src="C:\Users\23256\AppData\Roaming\Typora\typora-user-images\image-20211207213530533.png" srcset="/img/loading.gif" lazyload alt="image-20211207213530533"></p>
+<p><img src="/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E7%AC%94%E8%AE%B0.assets/image-20211207213440734.png" srcset="/img/loading.gif" lazyload alt="image-20211207213440734"></p>
+<p><img src="/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E7%AC%94%E8%AE%B0.assets/image-20211207213530533.png" srcset="/img/loading.gif" lazyload alt="image-20211207213530533"></p>
 <p>计算步骤：</p>
-<p><img src="C:\Users\23256\AppData\Roaming\Typora\typora-user-images\image-20211207213825729.png" srcset="/img/loading.gif" lazyload alt="image-20211207213825729"></p>
-<p><img src="C:\Users\23256\AppData\Roaming\Typora\typora-user-images\image-20211207214250055.png" srcset="/img/loading.gif" lazyload alt="image-20211207214250055"></p>
+<p><img src="/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E7%AC%94%E8%AE%B0.assets/image-20211207213825729.png" srcset="/img/loading.gif" lazyload alt="image-20211207213825729"></p>
+<p><img src="/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E7%AC%94%E8%AE%B0.assets/image-20211207214250055.png" srcset="/img/loading.gif" lazyload alt="image-20211207214250055"></p>
 <p>代码实现：</p>
 <figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs c++">   <br></code></pre></td></tr></table></figure>
 
 
 </li>
 <li><p>图书信息管理管理：</p>
-<p><img src="C:\Users\23256\AppData\Roaming\Typora\typora-user-images\image-20211207214609152.png" srcset="/img/loading.gif" lazyload alt="image-20211207214609152"></p>
-<p><img src="C:\Users\23256\AppData\Roaming\Typora\typora-user-images\image-20211207214705792.png" srcset="/img/loading.gif" lazyload alt="image-20211207214705792"></p>
+<p><img src="/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E7%AC%94%E8%AE%B0.assets/image-20211207214609152.png" srcset="/img/loading.gif" lazyload alt="image-20211207214609152"></p>
+<p><img src="/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E7%AC%94%E8%AE%B0.assets/image-20211207214705792.png" srcset="/img/loading.gif" lazyload alt="image-20211207214705792"></p>
 </li>
 <li></li>
 </ol>
@@ -843,7 +843,7 @@
 </ul>
 <h2 id="5-7-哈夫曼树及其应用"><a href="#5-7-哈夫曼树及其应用" class="headerlink" title="5.7 哈夫曼树及其应用"></a>5.7 哈夫曼树及其应用</h2><h3 id="5-7-1-哈夫曼树基本概念"><a href="#5-7-1-哈夫曼树基本概念" class="headerlink" title="5.7.1 哈夫曼树基本概念"></a>5.7.1 哈夫曼树基本概念</h3><p>哈夫曼树即最优树（带权路径长度最短的树）</p>
 <p>哈夫曼树：最优二叉树</p>
-<h3 id="5-7-2-哈夫曼树的构造算法"><a href="#5-7-2-哈夫曼树的构造算法" class="headerlink" title="5.7.2 哈夫曼树的构造算法"></a>5.7.2 哈夫曼树的构造算法</h3><p><img src="C:\Users\23256\AppData\Roaming\Typora\typora-user-images\image-20220126194417617.png" srcset="/img/loading.gif" lazyload alt="image-20220126194417617"></p>
+<h3 id="5-7-2-哈夫曼树的构造算法"><a href="#5-7-2-哈夫曼树的构造算法" class="headerlink" title="5.7.2 哈夫曼树的构造算法"></a>5.7.2 哈夫曼树的构造算法</h3><p><img src="/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E7%AC%94%E8%AE%B0.assets/image-20220126194417617.png" srcset="/img/loading.gif" lazyload alt="image-20220126194417617"></p>
 <p>哈夫曼树具体代码：</p>
 <figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br></pre></td><td class="code"><pre><code class="hljs c++"><span class="hljs-keyword">typedef</span> <span class="hljs-keyword">struct</span>&#123;<span class="hljs-comment">//结点定义</span><br>    <span class="hljs-type">int</span> parent,lch,rch;<br>    <span class="hljs-type">int</span> weight;<br>&#125;HTNode,*HuffmanTree;<br><span class="hljs-keyword">typedef</span> <span class="hljs-type">char</span> **HuffmanCode;<br><br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">Select</span><span class="hljs-params">(HuffmanTree HT,<span class="hljs-type">int</span> m,<span class="hljs-type">int</span> &amp;s1,<span class="hljs-type">int</span> &amp;s2)</span></span>&#123;<span class="hljs-comment">//x</span><br>    <span class="hljs-type">int</span> i;<br>    <span class="hljs-type">int</span> min1=<span class="hljs-number">1000</span>; <br>    <span class="hljs-type">int</span> min2=<span class="hljs-number">1000</span>;<br>    <span class="hljs-keyword">for</span>(i=<span class="hljs-number">1</span>;i&lt;=m;i++)&#123;<br>        <span class="hljs-keyword">if</span>(HT[i].parent==<span class="hljs-number">0</span> &amp;&amp; min1&gt;HT[i].weight)&#123;<br>            min1=HT[i].weight;<br>            s1=i;<br>        &#125;<br>    &#125;<br>    <span class="hljs-keyword">for</span>(i=<span class="hljs-number">1</span>;i&lt;=m;i++)&#123;<br>        <span class="hljs-keyword">if</span>(i!=(s1)&amp;&amp;HT[i].parent==<span class="hljs-number">0</span>)<br>        <span class="hljs-keyword">if</span>(HT[i].weight&lt;min2)&#123;<br>            min2=HT[i].weight;<br>            s2=i;<br>        &#125;<br>  <br>    &#125; <br>&#125;<br><br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">CreatHuffmanTree</span><span class="hljs-params">(HuffmanTree HT,<span class="hljs-type">int</span> n)</span></span>&#123;<span class="hljs-comment">//创建一个哈夫曼树</span><br>    <span class="hljs-type">int</span> s1=<span class="hljs-number">0</span>,s2=<span class="hljs-number">0</span>;<br>    <span class="hljs-keyword">if</span>(n&lt;=<span class="hljs-number">1</span>)<span class="hljs-keyword">return</span>;<br>    <span class="hljs-type">int</span> m=<span class="hljs-number">2</span>*n<span class="hljs-number">-1</span>;<br>    HT=<span class="hljs-keyword">new</span> HTNode[m+<span class="hljs-number">1</span>];<br>    <span class="hljs-keyword">for</span>(<span class="hljs-type">int</span> i=<span class="hljs-number">1</span>;i&lt;=m;i++)&#123;<span class="hljs-comment">//初始化，全部置0</span><br>        HT[i].lch=<span class="hljs-number">0</span>;<br>        HT[i].rch=<span class="hljs-number">0</span>;<br>        HT[i].parent=<span class="hljs-number">0</span>;<br>    &#125;<br>    <span class="hljs-keyword">for</span>(<span class="hljs-type">int</span> i=<span class="hljs-number">1</span>;i&lt;=n;i++)&#123;<br>        cin&gt;&gt;HT[i].weight;<br>    &#125;<br>    <span class="hljs-keyword">for</span>(<span class="hljs-type">int</span> i=n+<span class="hljs-number">1</span>;i&lt;=m;i++)&#123;<br>        <span class="hljs-built_in">Select</span>(HT,i<span class="hljs-number">-1</span>,s1,s2);<br>        HT[s1].parent=i;<br>        HT[s2].parent=i;<br>        HT[i].lch=s1;<br>        HT[i].rch=s2;<br>        HT[i].weight=HT[s1].weight+HT[s2].weight;<br>    &#125;<br>&#125;<br><br><span class="hljs-comment">//哈夫曼编码实现</span><br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">CreatHuffmanCode</span><span class="hljs-params">(HuffmanTree HT,HuffmanCode &amp;HC,<span class="hljs-type">int</span> n)</span></span>&#123;<br>    <span class="hljs-type">int</span> start;<br>    <span class="hljs-type">int</span> c,f;<br>    HC=<span class="hljs-keyword">new</span> <span class="hljs-type">char</span> *[n+<span class="hljs-number">1</span>];<br>    <span class="hljs-type">char</span>* cd=<span class="hljs-keyword">new</span> <span class="hljs-type">char</span> [n];<br>    cd[n<span class="hljs-number">-1</span>]=<span class="hljs-string">&#x27;\0&#x27;</span>;<br>    <span class="hljs-keyword">for</span>(<span class="hljs-type">int</span> i=<span class="hljs-number">1</span>;i&lt;=n;i++)&#123;<br>        start=n<span class="hljs-number">-1</span>;<br>        c=i;<br>        f=HT[i].parent;<br>        <span class="hljs-keyword">while</span>(f!=<span class="hljs-number">0</span>)&#123;<br>            start--;<br>            <span class="hljs-keyword">if</span>(HT[f].lch==c)cd[start]=<span class="hljs-string">&#x27;0&#x27;</span>;<br>            <span class="hljs-keyword">else</span> cd[start]=<span class="hljs-string">&#x27;1&#x27;</span>;<br>            c=f;<br>            f=HT[f].parent;<br>        &#125;<br>        HC[i]=<span class="hljs-keyword">new</span> <span class="hljs-type">char</span> [n-start];<br>        <span class="hljs-built_in">strcpy</span>(HC[i],&amp;cd[start]);<br>    &#125;<br>    <span class="hljs-keyword">delete</span> cd;<br>&#125;<br></code></pre></td></tr></table></figure>
 
@@ -861,7 +861,7 @@
     <div class="post-meta">
       <i class="iconfont icon-tags"></i>
       
-        <a href="/tags/%E7%AE%97%E6%B3%95/">#算法</a>
+        <a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/">#数据结构</a>
       
     </div>
   
@@ -873,20 +873,20 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>数据结构笔记</div>
-      <div>http://example.com/2022/09/05/各种算法笔记/</div>
+      <div>数据结构与算法笔记</div>
+      <div>http://example.com/2022/09/07/数据结构与算法笔记/</div>
     </div>
     <div class="license-meta">
       
         <div class="license-meta-item">
           <div>作者</div>
-          <div>John Doe</div>
+          <div>YeCi</div>
         </div>
       
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2022年9月5日</div>
+          <div>2022年9月7日</div>
         </div>
       
       
